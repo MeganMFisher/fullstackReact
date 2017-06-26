@@ -3,11 +3,11 @@ const express = require('express'),
       massive = require('massive'),
       config = require('./config.js')
 
-// massive(config.database).then(db => {
-//     app.set('db', db)
-// }).catch((err) => {
-//     console.log(err)
-// })
+massive(config.database).then(db => {
+    app.set('db', db)
+}).catch((err) => {
+    console.log(err)
+})
 
 var port = 3001;
 
