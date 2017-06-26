@@ -17,6 +17,12 @@ app.use(bodyParser.json())
 const controller = require('./controller.js')
 
 
+app.get('/visitors', controller.getVisitors)
+app.get('/sales', controller.getSales)
+app.get('/product', controller.getProducts)
+app.get('/inventory', controller.getInventory)
+app.get('/payment', controller.getPayments)
+
 app.listen(port, function() {
   console.log("Started server on port", port);
 });
