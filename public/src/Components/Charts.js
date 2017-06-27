@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Charts extends Component {
     render() {
         return (
-            <div>
+            <div className='gradientBackground'>
                 <h1>About RAAWWWRRRRRRR --- Charts</h1>
 
             </div>

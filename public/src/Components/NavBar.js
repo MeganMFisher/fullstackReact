@@ -6,8 +6,9 @@ import '../CSS/NavBar.css';
 
 function NavBar( { items } ) {
   return (
-   <div>
+            <div>
                 <div className='nav-bar-header'>
+                  <div className='linksBox'>
                <Link to='/'>
                     Home
                </Link>
@@ -17,6 +18,7 @@ function NavBar( { items } ) {
                <Link to='/charts'>
                     Charts
                </Link>
+               </div>
                </div>
             </div>
   )

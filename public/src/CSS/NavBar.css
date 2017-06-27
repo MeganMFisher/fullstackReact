@@ -1,7 +1,29 @@
 .nav-bar-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-    background-color: lightgrey;
+    background-color: #444;
     padding: 20px 20px;
+}
+
+.linksBox {
+    width: 35%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65%;
+}
+
+a:link, a:visited {
+    /*background-color: #2259bf;*/
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    /*display: inline-block;*/
+}
+
+a:hover, a:active {
+    /*background-color: red;*/
 }
